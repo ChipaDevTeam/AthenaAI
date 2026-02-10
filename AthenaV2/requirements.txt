@@ -1,0 +1,4 @@
+numpy
+scikit-learn
+# Manual install required for BinaryOptionsToolsV2 wheel
+# https://github.com/ChipaDevTeam/BinaryOptionsTools-v2/releases
