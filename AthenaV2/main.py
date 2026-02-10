@@ -19,7 +19,7 @@ def main():
         max_confidence=0.92,     # avoid overfitted "too good" signals
         dataset_path="data.csv",
         brain_path="brain_v6.pkl",
-        trading_hours=[6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],  # UTC hours to trade
+        trading_hours=None,  # Trade all hours
         require_indicator_alignment=True,
     )
 
