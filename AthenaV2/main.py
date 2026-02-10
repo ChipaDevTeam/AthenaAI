@@ -10,7 +10,7 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 def main():
     # ── CONFIGURATION ──
     config = BotConfig(
-        ssid=r"17382223403310864380907106096538053625470701883270034456637651035546252485669",  # <--- PUT YOUR SSID HERE
+        ssid=r'42["auth",{"session":"vtftn12e6f5f5008moitsd6skl","isDemo":1,"uid":27658142,"platform":2,"isFastHistory":true,"isOptimized":true}]',  # <--- PUT YOUR SSID HERE
         asset="AUDNZD_otc",
         timeframe=60,            # 1 minute candles
         default_expiry=55,      # will be overridden by AI selector
