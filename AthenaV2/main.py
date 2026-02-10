@@ -17,7 +17,7 @@ def main():
         expiry_options=[35, 45, 50, 55, 60, 65, 75, 90],  # AI chooses from these (seconds)
         min_confidence=0.61,     # min model agreement to trade
         max_confidence=0.92,     # avoid overfitted "too good" signals
-        dataset_path="",         # No dataset available
+        dataset_path="EURUSD_M1.csv",         # No dataset available
         brain_path="brain_v6.pkl",
         trading_hours=None,  # Trade all hours
         require_indicator_alignment=True,
