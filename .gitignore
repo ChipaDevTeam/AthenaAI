@@ -1,0 +1,6 @@
+__pycache__/
+*.pkl
+*.db
+.env
+.vscode/
+.venv
